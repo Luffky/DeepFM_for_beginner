@@ -275,7 +275,7 @@ class DeepFM():
         log_writer.close()
 
 
-xxx_test    def Predict(self, test_file):
+	def Predict(self, test_file):
         gt_scores = []
         pred_scores = []
         for test_input_in_sp in load_data_cache(test_file):
